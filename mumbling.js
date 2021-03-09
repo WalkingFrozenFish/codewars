@@ -10,7 +10,6 @@ function accum(s) {
 
     let newArray = returnArray.map(function(item) {
         return item[0].toUpperCase() + item.substring(1);
- 
     })
 
     return newArray.join("-");
