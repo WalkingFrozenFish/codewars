@@ -14,3 +14,10 @@ function stray(numbers) {
 stray([1, 1, 2]);
 stray([2, 1, 1, 1, 1, 1]);
 stray([2, 2, 2, 2, 1]);
+
+// Other
+// function stray(numbers){
+//   for (var i in numbers){
+//      if (numbers.indexOf(numbers[i]) === numbers.lastIndexOf(numbers[i])){return numbers[i]}
+//   }
+// }
